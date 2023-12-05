@@ -210,6 +210,6 @@ agent的局限性导致用agent查杀修改变得困难了起来，对于使用H
 
 
 
-
-
-
+参考
+https://mp.weixin.qq.com/s/89Bmvy_uY97TZm3vR9lyWw?ref=www.ctfiot.com
+https://paper.seebug.org/1945/#_3
