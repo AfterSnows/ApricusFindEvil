@@ -69,7 +69,7 @@ removeTransformer之后又用其他的transform实现retransformClasses(c);同�
 
 
 
-![image-20231130141045078](D:\WorkSpace\ApricusFindEvil\asset\noteimage_1.png)
+![image-20231130141045078](.asset/noteimage_1.png)
 
 #### 基于通信的内存马类型：WebSocket
 
@@ -89,7 +89,7 @@ removeTransformer之后又用其他的transform实现retransformClasses(c);同�
 
 跟四大类型大同小异，因为还是要注册class到map中，检测本地文件存在和是否继承自endpoint，检测到直接改写其中注册到map中的endpoint类的onmessage的逻辑置空
 
-![image-20231201113623889](D:\WorkSpace\ApricusFindEvil\asset\noteimage_2.png)
+![image-20231201113623889](.asset/noteimage_2.png)
 
 
 
@@ -97,7 +97,7 @@ removeTransformer之后又用其他的transform实现retransformClasses(c);同�
 
 使用sockboy测试即可
 
-![image-20231201114020283](D:\WorkSpace\ApricusFindEvil\asset\noteimage_3.png)
+![image-20231201114020283](.asset/noteimage_3.png)
 
 杀完如图所示
 
@@ -123,11 +123,11 @@ private void init(ThreadGroup g, Runnable target, String name,
 
 ###### 线程型内存马测试
 
-![image-20231205161043709](D:\WorkSpace\ApricusFindEvil\asset\noteimage_7.png)
+![image-20231205161043709](.asset/noteimage_7.png)
 
-![image-20231205162622475](D:\WorkSpace\ApricusFindEvil\asset\noteimage_8.png)
+![image-20231205162622475](.asset/noteimage_8.png)
 
-![image-20231205162648447](D:\WorkSpace\ApricusFindEvil\asset\noteimage_9.png)
+![image-20231205162648447](.asset/noteimage_9.png)
 
 
 
@@ -165,7 +165,7 @@ agent的局限性导致用agent查杀修改变得困难了起来，对于使用H
 
 ###### agent马查杀测试
 
-![image-20231205164104346](D:\WorkSpace\ApricusFindEvil\asset\noteimage_10.png)
+![image-20231205164104346](.asset/noteimage_10.png)
 
 # Agent防御
 
@@ -189,13 +189,13 @@ agent的局限性导致用agent查杀修改变得困难了起来，对于使用H
 
 
 
-![image-20231202123112452](D:\WorkSpace\ApricusFindEvil\asset\noteimage_4.png)
+![image-20231202123112452](.asset/noteimage_4.png)
 
-![image-20231203150419537](D:\WorkSpace\ApricusFindEvil\asset\noteimage_5.png)
+![image-20231203150419537](.asset/noteimage_5.png)
 
 可以看到冰蝎用于返回基本信息的类注入
 
-![image-20231203154909222](D:\WorkSpace\ApricusFindEvil\asset\noteimage_6.png)
+![image-20231203154909222](.asset/noteimage_6.png)
 
 
 
